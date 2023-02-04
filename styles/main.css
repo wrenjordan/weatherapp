@@ -5,10 +5,10 @@ body {
     margin: 0;
     height: 100vh;
     font-family: 'Open Sans', sans-serif;
-    background-image: url('../img/skyline.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     font-size: 120%;
+    background-color: black;
 }
 
 .card {
@@ -58,5 +58,20 @@ body {
 
 .temp {
     margin: 0;
+    margin-bottom: 0.4em;
 }
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.description {
+    text-transform: capitalize;
+    margin-left: 8px;
+}
+
+.weather.loading { 
+    visibility: hidden;
+} 
 
