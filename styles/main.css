@@ -73,5 +73,64 @@ body {
 
 .weather.loading { 
     visibility: hidden;
-} 
+}
+
+.line {
+    width: 100%;
+    border: 0.3px solid lightgray;
+    margin-top: 20px;
+}
+
+.days {
+    justify-content: left;
+
+}
+
+.day1 {
+    margin-right: 15px;
+}
+
+.day2 {
+    margin-right: 15px;
+}
+
+.day3 {
+    margin-right: 15px;
+}
+
+.day4 {
+    margin-right: 15px;;
+}
+
+.date {
+    margin-top:10px;
+    margin-bottom: 0;
+    margin-left: 15px;
+    padding: 0;
+}
+
+.icon.small {
+    padding: 0;
+    margin-left: 5px;
+}
+
+.temps {
+    margin-left: 0;
+}
+
+.max-temp {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.min-temp {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+h4 {
+    font-size: 1rem;
+}
 
